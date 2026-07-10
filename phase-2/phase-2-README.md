@@ -104,7 +104,7 @@ mean = [0.485, 0.456, 0.406]
 std = [0.229, 0.224, 0.225]
 ```
 
-This prepares the input for common pretrained CNN backbones.
+These are the standard normalization statistics for ImageNet-trained CNNs. Phase 3 trains a compact CNN from scratch on this pipeline rather than fine-tuning a pretrained backbone, but keeping this normalization keeps the door open for a pretrained backbone as a later extension.
 
 ### 4. Create split datasets
 
