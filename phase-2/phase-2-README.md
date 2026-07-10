@@ -125,7 +125,7 @@ One example from each split is loaded and checked. This catches broken paths, tr
 The training dataset is wrapped with:
 
 ```python
-DataLoader(train_dataset, batch_size=64, shuffle=True, num_workers=4)
+DataLoader(train_dataset, batch_size=32, shuffle=True, num_workers=2)
 ```
 
 Shuffling is appropriate for training, and batching is required for efficient model optimization.
