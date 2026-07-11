@@ -1,0 +1,5 @@
+model,val_auroc,test_auroc,val_test_gap
+From-scratch CNN (baseline),0.694,0.6043,0.0897
+DenseNet-121 frozen,0.7389,0.6973,0.0416
+DenseNet-121 fine-tuned,0.8214,0.7939,0.0275
+DenseNet-121 fine-tuned weighted,0.8221,0.797,0.0251
