@@ -253,7 +253,7 @@ The training loops are gated as "run once" — after the checkpoints exist, run 
 | From-scratch CNN (Phase 3) | 0.6940 | 0.6043 | 0.0897 | 11 | ~247 min |
 | DenseNet-121 frozen | 0.7389 | 0.6973 | 0.0416 | 1 | ~93 min |
 | DenseNet-121 fine-tuned | 0.8214 | 0.7939 | 0.0275 | 1 | ~102 min |
-| **DenseNet-121 fine-tuned + weighted** | **0.8221** | **0.7970** | **0.0251** | 1 | — |
+| **DenseNet-121 fine-tuned + weighted** | **0.8221** | **0.7970** | **0.0251** | 1 | ~87 min |
 
 ### Operating-point recovery (weighted vs. fine-tuned, test macro)
 
