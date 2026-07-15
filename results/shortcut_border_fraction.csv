@@ -1,0 +1,15 @@
+disease,mean_border_frac
+Emphysema,0.387
+Effusion,0.262
+Pneumothorax,0.259
+Nodule,0.243
+Pleural_Thickening,0.203
+Edema,0.201
+Mass,0.192
+Consolidation,0.191
+Atelectasis,0.187
+Infiltration,0.183
+Fibrosis,0.174
+Pneumonia,0.15
+Hernia,0.087
+Cardiomegaly,0.066
