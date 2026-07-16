@@ -4,9 +4,7 @@ An end-to-end deep-learning project that detects **14 thoracic findings** from a
 
 > **Research demonstration only — NOT a medical device.** Trained on the public NIH ChestX-ray14 dataset for a portfolio project. It must **not** be used for diagnosis, screening, or any clinical decision. See [`MODEL_CARD.md`](MODEL_CARD.md).
 
-**🔗 Live demo:** `https://<your-app>.streamlit.app`  ·  **Model card:** [`MODEL_CARD.md`](MODEL_CARD.md)
-
-<!-- Replace <your-app> above with the deployed Streamlit Community Cloud URL. -->
+**🔗 [Live demo](https://chest-xray-classifier-xpfersusnbcxqh5c9vmjuk.streamlit.app/)**  ·  **Model card:** [`MODEL_CARD.md`](MODEL_CARD.md)
 
 ---
 
@@ -105,7 +103,7 @@ Chest-XRay-Project/
 
 ## Run the app
 
-**Live:** the Streamlit Community Cloud demo (link at the top).
+**Live:** [chest-xray-classifier on Streamlit Community Cloud](https://chest-xray-classifier-xpfersusnbcxqh5c9vmjuk.streamlit.app/).
 
 **Locally:**
 ```bash

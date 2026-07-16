@@ -4,6 +4,8 @@ The capstone phase. It does not train a model. It wraps the Phase 4 weighted Den
 
 > **Research demonstration only — NOT a medical device.** Trained on the public NIH ChestX-ray14 dataset for a portfolio project. It must **not** be used for diagnosis, screening, or any clinical decision.
 
+**🔗 Live demo:** [chest-xray-classifier.streamlit.app](https://chest-xray-classifier-xpfersusnbcxqh5c9vmjuk.streamlit.app/)
+
 ---
 
 ## Table of Contents
