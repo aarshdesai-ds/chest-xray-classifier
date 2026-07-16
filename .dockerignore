@@ -1,0 +1,16 @@
+# Keep the Docker build context small: the image only needs phase-7/ + the deployed model.
+.git
+.gitignore
+**/.ipynb_checkpoints
+**/*.ipynb
+phase-1/
+phase-2/
+phase-3/
+phase-4/
+phase-5/
+phase-6/
+results/
+# models: keep ONLY the deployed checkpoint, exclude the others
+models/baseline_model.pt
+models/densenet_frozen.pt
+models/densenet_finetune.pt
