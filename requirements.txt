@@ -1,5 +1,5 @@
-# Root dependency file for Streamlit Community Cloud (it looks for requirements.txt
-# at the repo root). Mirrors phase-7/requirements.txt, which the Docker/EC2 build uses.
+# Dependencies for the Streamlit deployment (Streamlit Community Cloud reads this file
+# from the repo root; also used to build the local dev venv).
 # NOTE: requires Python 3.12 (set it in the Streamlit Cloud "Advanced settings"). These
 # pins have no wheels for Python 3.13+/3.14.
 # CPU-only PyTorch keeps the install small — inference needs no GPU. The explicit +cpu
