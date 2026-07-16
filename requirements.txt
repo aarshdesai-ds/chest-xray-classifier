@@ -1,0 +1,13 @@
+# Root dependency file for Streamlit Community Cloud (it looks for requirements.txt
+# at the repo root). Mirrors phase-7/requirements.txt, which the Docker/EC2 build uses.
+# CPU-only PyTorch keeps the install small — inference needs no GPU.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.2.2
+torchvision==0.17.2
+
+streamlit==1.36.0
+grad-cam==1.5.0
+pillow==10.3.0
+numpy==1.26.4
+pandas==2.2.2
+opencv-python-headless==4.9.0.80
